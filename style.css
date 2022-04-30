@@ -1,0 +1,26 @@
+#hero {
+  background-image: url("./images/bg.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#hero h1 {
+  font-size: 4rem;
+  color: black;
+}
+#produtos {
+  align-items: stretch;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.produto {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1 1 50%;
+}
